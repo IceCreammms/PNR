@@ -5,6 +5,10 @@ package src.modele.donnee;
 * @author M.TUZOLA
 */
 
+/**
+* methode EspeceChouette
+* enumeration des differentes Chouette
+*/
 public enum EspeceChouette {
     EFFRAIE,
     CHEVECHE,

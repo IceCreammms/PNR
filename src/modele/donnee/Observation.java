@@ -8,6 +8,7 @@ import src.modele.exceptions.ObservationException;
 
 /**
  * Observation
+ * @author Tanguy Sergent
  */
 public abstract class Observation {
 
@@ -57,31 +58,31 @@ public abstract class Observation {
 
         try{
             if(date == null) {
-                throw new ObservationException();
+                throw new IllegalArgumentException();
             } else {
                 this.dateObs = date;
             }
-        } catch(ObservationException e) {
+        } catch(IllegalArgumentException e) {
             System.err.println("Err - Date null");
         }
 
         try{
             if(heure == null) {
-                throw new ObservationException();
+                throw new IllegalArgumentException();
             } else {
                 this.heureObs = heure;
             }
-        } catch(ObservationException e) {
+        } catch(IllegalArgumentException e) {
             System.err.println("Err - Heure null");
         }
         
         try{
             if(lieu == null) {
-                throw new ObservationException();
+                throw new IllegalArgumentException();
             } else {
                 this.lieuObs = lieu;
             }
-        } catch(ObservationException e) {
+        } catch(IllegalArgumentException e) {
             System.err.println("Err - Lieu null");
         }
 

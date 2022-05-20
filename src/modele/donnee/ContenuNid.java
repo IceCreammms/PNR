@@ -6,6 +6,10 @@ package src.modele.donnee;
 * @author M.TUZOLA
 */
 
+/**
+* methode ContenuNid
+* enumeration des differents etat d'un nid
+*/
 public enum ContenuNid {
     OEUF,
     POUSSIN,

@@ -6,7 +6,10 @@ package src.modele.donnee;
 * @author M.TUZOLA
 */
 
-
+/**
+* methode EspeceObserve
+* enumeration des differentes espece observee
+*/
 public enum EspeceObserve {
     LOUTRE,
     BATRACIEN,

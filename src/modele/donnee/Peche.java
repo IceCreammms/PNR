@@ -5,6 +5,10 @@ package src.modele.donnee;
 * @author M.TUZOLA
 */
 
+/**
+* Methode peche
+* enumerations des outils de pêche
+*/
 public enum Peche {
     CASIER_CREVETTES,
     CASIER_MORGATES,

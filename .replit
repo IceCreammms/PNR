@@ -1,0 +1,3 @@
+language = "java11"
+compile="javac -cp ./class -d ./class ./src/modele/donnee/Lieu.java ./src/modele/*.java"
+run = "java -cp ./class src/modele/ScenarioDonnee"

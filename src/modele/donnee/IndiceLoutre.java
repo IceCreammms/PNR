@@ -5,6 +5,10 @@ package src.modele.donnee;
 * @author M.TUZOLA
 */
 
+/**
+* methode IndiceLoutre
+* enumeration de l'etat de l'indice loutre
+*/
 public enum IndiceLoutre {
     POSITIF,
     NEGATIF,
